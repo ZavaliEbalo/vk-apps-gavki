@@ -7,7 +7,7 @@ import persik from '../img/persik.png';
 import './Persik.css';
 
 const Persik = props => (
-	<Panel
+	<Panel className="Persik"
 	id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
