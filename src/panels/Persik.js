@@ -19,10 +19,10 @@ const Persik = props => (
 		<img className="Persik"  src={persik} alt="Котперсик"/>
 		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
 			<Div >
-				<Button   className="ButStyle"  mode="secondary" onClick={props.go} data-to="panel3">
+				<Button     mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
 				</Button>
-				<Button  className="ButStyle"  mode="secondary" onClick={props.go} data-to="panel3">
+				<Button  margin='20px'  mode="secondary" onClick={props.go} data-to="panel3">
 					НЕМАЛЕНЬКАЯ
 				</Button>
 				<Button   className="Persik" mode="secondary" onClick={props.go} data-to="panel3">
