@@ -21,6 +21,9 @@ const Persik = props => (
 				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
 				</Button>
+				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
+					НЕМАЛЕНЬКАЯ
+				</Button>
 			</Div>
 		</Group>
 	</Panel>
