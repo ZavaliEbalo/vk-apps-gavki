@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/panels/ButStyle.css"],"names":[],"mappings":"AAAA,mBACE,aAAc,CACd,eAAgB,CAChB,SAAU,CACV,gBAEF","file":"main.57bd4c2b.chunk.css","sourcesContent":[".ButStlyle {\r\n  display: block;\r\n  max-width: 240px;\r\n  width: 30%;\r\n  margin: 20px auto;\r\n\r\n}\r\n"]}
