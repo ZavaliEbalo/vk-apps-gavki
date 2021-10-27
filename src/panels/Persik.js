@@ -11,9 +11,18 @@ const Persik = props => (
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
 		>
-			Persik
+			Кот-персик
 		</PanelHeader>
-		<img className="Persik" src={persik} alt="Persik The Cat"/>
+		<img className="Persik" src={persik} alt="Кот-персик"/>
+		
+		<Group header={<Header mode="secondary">Пример навигации с кнопкой к первой панели</Header>}>
+			<Div>
+				<Button stretched size="l" mode="secondary" onClick={go} data-to="home">
+					Вернуться к первой панели :)
+				</Button>
+			</Div>
+		</Group>
+
 	</Panel>
 );
 
