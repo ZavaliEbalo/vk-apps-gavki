@@ -11,9 +11,9 @@ const Persik = props => (
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
 		>
-			Кот-персик
+			Котперсик
 		</PanelHeader>
-		<img className="Persik" src={persik} alt="Кот-персик"/>
+		<img className="Persik" src={persik} alt="Котперсик"/>
 		
 	
 
