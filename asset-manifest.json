@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vk-apps-gavki/static/css/main.7f8b3a53.chunk.css",
-    "main.js": "/vk-apps-gavki/static/js/main.c6ac40fb.chunk.js",
-    "main.js.map": "/vk-apps-gavki/static/js/main.c6ac40fb.chunk.js.map",
+    "main.js": "/vk-apps-gavki/static/js/main.a447d2c6.chunk.js",
+    "main.js.map": "/vk-apps-gavki/static/js/main.a447d2c6.chunk.js.map",
     "runtime-main.js": "/vk-apps-gavki/static/js/runtime-main.eae10796.js",
     "runtime-main.js.map": "/vk-apps-gavki/static/js/runtime-main.eae10796.js.map",
     "static/css/2.a2ab3232.chunk.css": "/vk-apps-gavki/static/css/2.a2ab3232.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.a2ab3232.chunk.css",
     "static/js/2.a17436e1.chunk.js",
     "static/css/main.7f8b3a53.chunk.css",
-    "static/js/main.c6ac40fb.chunk.js"
+    "static/js/main.a447d2c6.chunk.js"
   ]
 }
