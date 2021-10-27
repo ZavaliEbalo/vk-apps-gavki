@@ -18,14 +18,14 @@ const Persik = props => (
 
 		<img className="Persik"  src={persik} alt="Котперсик"/>
 		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
-			<Div className="ButStyle">
-				<Button   stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
+			<Div >
+				<Button    stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
 				</Button>
 				<Button  stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕМАЛЕНЬКАЯ
 				</Button>
-				<Button   mode="secondary" onClick={props.go} data-to="panel3">
+				<Button   className="ButStyle" mode="secondary" onClick={props.go} data-to="panel3">
 					Далее
 				</Button>
 			</Div>
