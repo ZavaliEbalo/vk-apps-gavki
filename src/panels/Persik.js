@@ -15,10 +15,10 @@ const Persik = props => (
 		</PanelHeader>
 
 		<img className="Persik" src={persik} alt="Котперсик"/>
-		<Group header={<Header mode="secondary">Пример навигации с кнопкой к другой панели</Header>}>
+		<Group header>КАКАЯ ТЫ ГАВКА?</Header>}>
 			<Div>
 				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
-					Покажи
+					НЕБОЛЬЩАЯ
 				</Button>
 			</Div>
 		</Group>
