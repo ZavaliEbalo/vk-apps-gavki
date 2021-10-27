@@ -14,7 +14,7 @@ const Persik = props => (
 			Котперсик
 		</PanelHeader>
 		
-		<img className="Persik" src={persik} alt="Кот-персик"/>
+		<img className="Persik" src={persik} alt="Котперсик"/>
 	</Panel>
 );
 
