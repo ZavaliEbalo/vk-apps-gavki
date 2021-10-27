@@ -15,8 +15,8 @@ const Persik = props => (
 			Котперсик
 		</PanelHeader>
 
-		<img  src={persik} alt="Котперсик"/>
-		<Group className="Persik" header={<Header mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
+		<img className="Persik"  src={persik} alt="Котперсик"/>
+		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
 			<Div>
 				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
