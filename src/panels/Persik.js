@@ -5,6 +5,7 @@ import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div, Header } from
 
 import persik from '../img/persik.png';
 import './Persik.css';
+import './ButStyle.css';
 
 const Persik = props => (
 	<Panel
@@ -17,8 +18,8 @@ const Persik = props => (
 
 		<img className="Persik"  src={persik} alt="Котперсик"/>
 		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
-			<Div>
-				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
+			<Div className="ButStyle">
+				<Button  stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
 				</Button>
 				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
