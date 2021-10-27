@@ -1,6 +1,6 @@
 .Persik {
   display: block;
-
-
+  max-width: 240px;
+  width: 30%;
   margin: 20px auto;
 }
