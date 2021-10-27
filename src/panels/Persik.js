@@ -17,8 +17,8 @@ const Persik = props => (
 		
 		<Group header={<Header mode="secondary">Пример навигации с кнопкой к первой панели</Header>}>
 			<Div>
-				<Button stretched size="l" mode="secondary" onClick={go} data-to="home">
-					Вернуться к первой панели :)
+				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="home">
+					Вернуться к первой панели 
 				</Button>
 			</Div>
 		</Group>
