@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Panel, PanelHeader, PanelHeaderBack } from '@vkontakte/vkui';
+import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div } from '@vkontakte/vkui';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -13,8 +13,15 @@ const Persik = props => (
 		>
 			Котперсик
 		</PanelHeader>
-		
-		<img className="Persik" src={persik} alt="Котперсик"/>
+
+		//<img className="Persik" src={persik} alt="Котперсик"/>
+		<Group header={<Header mode="secondary">Пример навигации с кнопкой к другой панели</Header>}>
+			<Div>
+				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="home">
+					Покажи
+				</Button>
+			</Div>
+		</Group>
 	</Panel>
 );
 
