@@ -1,5 +1,7 @@
 .ButStlyle {
   display: block;
-  margin: 20px auto;
+  max-width: 240px;
+  width: 30%;
+  margin: 40px auto;
 
 }
