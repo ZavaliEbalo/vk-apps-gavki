@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/vk-apps-gavki/static/css/main.94d9d93e.chunk.css",
-    "main.js": "/vk-apps-gavki/static/js/main.a1c0b9c0.chunk.js",
-    "main.js.map": "/vk-apps-gavki/static/js/main.a1c0b9c0.chunk.js.map",
+    "main.js": "/vk-apps-gavki/static/js/main.4d3d4842.chunk.js",
+    "main.js.map": "/vk-apps-gavki/static/js/main.4d3d4842.chunk.js.map",
     "runtime-main.js": "/vk-apps-gavki/static/js/runtime-main.eae10796.js",
     "runtime-main.js.map": "/vk-apps-gavki/static/js/runtime-main.eae10796.js.map",
     "static/css/2.a2ab3232.chunk.css": "/vk-apps-gavki/static/css/2.a2ab3232.chunk.css",
-    "static/js/2.2baedfe2.chunk.js": "/vk-apps-gavki/static/js/2.2baedfe2.chunk.js",
-    "static/js/2.2baedfe2.chunk.js.map": "/vk-apps-gavki/static/js/2.2baedfe2.chunk.js.map",
+    "static/js/2.a17436e1.chunk.js": "/vk-apps-gavki/static/js/2.a17436e1.chunk.js",
+    "static/js/2.a17436e1.chunk.js.map": "/vk-apps-gavki/static/js/2.a17436e1.chunk.js.map",
     "index.html": "/vk-apps-gavki/index.html",
     "static/css/2.a2ab3232.chunk.css.map": "/vk-apps-gavki/static/css/2.a2ab3232.chunk.css.map",
     "static/css/main.94d9d93e.chunk.css.map": "/vk-apps-gavki/static/css/main.94d9d93e.chunk.css.map",
-    "static/js/2.2baedfe2.chunk.js.LICENSE.txt": "/vk-apps-gavki/static/js/2.2baedfe2.chunk.js.LICENSE.txt",
+    "static/js/2.a17436e1.chunk.js.LICENSE.txt": "/vk-apps-gavki/static/js/2.a17436e1.chunk.js.LICENSE.txt",
     "static/media/persik.ae9f0072.png": "/vk-apps-gavki/static/media/persik.ae9f0072.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eae10796.js",
     "static/css/2.a2ab3232.chunk.css",
-    "static/js/2.2baedfe2.chunk.js",
+    "static/js/2.a17436e1.chunk.js",
     "static/css/main.94d9d93e.chunk.css",
-    "static/js/main.a1c0b9c0.chunk.js"
+    "static/js/main.4d3d4842.chunk.js"
   ]
 }
