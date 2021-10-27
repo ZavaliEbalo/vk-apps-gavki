@@ -7,7 +7,7 @@ import persik from '../img/persik.png';
 import './Persik.css';
 
 const Persik = props => (
-	<Panel className="Persik"
+	<Panel
 	id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
@@ -16,7 +16,7 @@ const Persik = props => (
 		</PanelHeader>
 
 		<img className="Persik" src={persik} alt="Котперсик"/>
-		<Group header={<Header mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
+		<Group className="Persik" header={<Header mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
 			<Div>
 				<Button stretched size="l" mode="secondary" onClick={props.go} data-to="panel3">
 					НЕБОЛЬШАЯ
