@@ -13,7 +13,7 @@ const Persik = props => (
 		>
 			Кот-персик
 		</PanelHeader>
-		<img className="Persik" src={persik} alt="Кот-персик"/>
+		
 		
 		<Group header={<Header mode="secondary">Пример навигации с кнопкой к первой панели</Header>}>
 			<Div>
