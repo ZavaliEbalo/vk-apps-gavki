@@ -8,15 +8,16 @@ import './TextHomeHeader.css';
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader className="TextHomeHeader">УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
-		{fetchedUser &&
+	//	{fetchedUser &&
 		<Group header={<Header mode="secondary">Тестируемая гавка:</Header>}>
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
+			// <Cell
+			// 	before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
+			// 	description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
+			// >
+			// 	{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
+			// </Cell>
+		</Group>
+	//}
 
 		<Group header={<Header mode="secondary">Пройди тест и узнай, какая ты собака прямой сейчас</Header>}>
 			<Div>
@@ -31,14 +32,14 @@ const Home = ({ id, go, fetchedUser }) => (
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
-	fetchedUser: PropTypes.shape({
-		photo_200: PropTypes.string,
-		first_name: PropTypes.string,
-		last_name: PropTypes.string,
-		city: PropTypes.shape({
-			title: PropTypes.string,
-		}),
-	}),
+	// fetchedUser: PropTypes.shape({
+	// 	photo_200: PropTypes.string,
+	// 	first_name: PropTypes.string,
+	// 	last_name: PropTypes.string,
+	// 	city: PropTypes.shape({
+	// 		title: PropTypes.string,
+	// 	}),
+	// }),
 };
 
 export default Home;
