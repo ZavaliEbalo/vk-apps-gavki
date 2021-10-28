@@ -9,14 +9,14 @@ const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader className="TextHomeHeader">УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
 	//	{fetchedUser &&
-		<Group header={<Header mode="secondary">Тестируемая гавка:</Header>}>
+	//	<Group header={<Header mode="secondary">Тестируемая гавка:</Header>}>
 			// <Cell
 			// 	before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
 			// 	description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
 			// >
 			// 	{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			// </Cell>
-		</Group>
+	//	</Group>
 //	}
 
 		<Group header={<Header mode="secondary">Пройди тест и узнай, какая ты собака прямой сейчас</Header>}>
