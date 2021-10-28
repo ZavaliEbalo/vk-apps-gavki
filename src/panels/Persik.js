@@ -9,12 +9,13 @@ import './ButStyle.css';
 import './block.css';
 
 const Persik = props => (
+	<Div className="PanelBackground">
 	<Panel
 	id={props.id}>
 		<PanelHeader
-			left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
+		//	left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
 		>
-			Котперсик
+
 		</PanelHeader>
 
 		<img className="Persik"  src={persik} alt="Котперсик"/>
@@ -32,6 +33,7 @@ const Persik = props => (
 			</Div>
 		</Group>
 	</Panel>
+	</Div>
 );
 
 Persik.propTypes = {
