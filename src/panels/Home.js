@@ -10,7 +10,7 @@ const Home = ({ id, go }) => (
 
 	<Panel id={id}>
 
-		<PanelHeader >УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
+		<PanelHeader className="TextHomeHeader" >УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
 
 		<Group header={<Header mode="secondary">Пройди тест и узнай, какая ты собака прямой сейчас</Header>}>
 			<Div>
