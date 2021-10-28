@@ -6,6 +6,7 @@ import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar } from '@v
 import './TextHomeHeader.css';
 //Добавить сюда fetchedUser
 const Home = ({ id, go }) => (
+	<Div>
 	<Panel id={id}>
 		<PanelHeader className="TextHomeHeader">УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
 
@@ -28,6 +29,7 @@ const Home = ({ id, go }) => (
 			</Div>
 		</Group>
 	</Panel>
+	</Div>
 );
 
 Home.propTypes = {
