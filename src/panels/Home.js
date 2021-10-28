@@ -17,7 +17,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			// 	{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			// </Cell>
 		</Group>
-	//}
+//	}
 
 		<Group header={<Header mode="secondary">Пройди тест и узнай, какая ты собака прямой сейчас</Header>}>
 			<Div>
