@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 
 import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar } from '@vkontakte/vkui';
 
+import './TextHomeHeader.css';
+
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
+		<PanelHeader className="TextHomeHeader">УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
 		{fetchedUser &&
 		<Group header={<Header mode="secondary">Тестируемая гавка:</Header>}>
 			<Cell
