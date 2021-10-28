@@ -20,12 +20,7 @@ const App = () => {
 				document.body.attributes.setNamedItem(schemeAttribute);
 			}
 		});
-		// async function fetchData() {
-		// 	const user = await bridge.send('VKWebAppGetUserInfo');
-		// 	setUser(user);
-		// 	setPopout(null);
-		// }
-		// fetchData();
+
 	}, []);
 
 	const go = e => {
