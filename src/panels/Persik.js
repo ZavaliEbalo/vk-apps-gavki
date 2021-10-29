@@ -1,15 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div, Header } from '@vkontakte/vkui';
+import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div, Header, Gradient } from '@vkontakte/vkui';
 
 import persik from '../img/persik.png';
 import './Persik.css';
 import './ButStyle.css';
 import './block.css';
+import './BacButtonDalee.css';
+import './GradientTest.css';
 
 const Persik = props => (
 	<Div className="PanelBackground">
+
 	<Panel
 	id={props.id}>
 		<PanelHeader
@@ -20,19 +23,27 @@ const Persik = props => (
 
 		<img className="Persik"  src={persik} alt="Котперсик"/>
 		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
+
 			<Div >
+
+
 				<Button   className="block"  mode="secondary" onClick={props.go} data-to="panel3">
-					НЕБОЛЬШАЯ
+					НЕБОЛЬШАЯ •
 				</Button>
 				<Button  className="block"  mode="secondary" onClick={props.go} data-to="panel3">
-					НЕМАЛЕНЬКАЯ
+					НЕМАЛЕНЬКАЯ ●
 				</Button>
-				<Button   className="Persik" mode="secondary" onClick={props.go} data-to="panel3">
+				<Button   className="BacButtonDalee" mode="secondary" onClick={props.go} data-to="panel3">
 					Далее
 				</Button>
+
+
 			</Div>
+
 		</Group>
+
 	</Panel>
+
 	</Div>
 );
 
