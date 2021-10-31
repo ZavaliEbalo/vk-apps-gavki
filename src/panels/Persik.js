@@ -9,8 +9,15 @@ import './ButStyle.css';
 import './block.css';
 import './BacButtonDalee.css';
 import './GradientTest.css';
+import './ButtonSelectedOne.css';
+import './form-radio.css';
+
+
+
 
 const Persik = props => (
+
+
 	<Div className="PanelBackground">
 
 	<Panel
@@ -25,15 +32,15 @@ const Persik = props => (
 		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
 
 			<Div >
-
-
-				<Button   className="block"  mode="secondary" onClick={props.go} data-to="panel3">
-					НЕБОЛЬШАЯ •
-				</Button>
-				<Button  className="block"  mode="secondary" onClick={props.go} data-to="panel3">
-					НЕМАЛЕНЬКАЯ ●
-				</Button>
-				<Button   className="BacButtonDalee" mode="secondary" onClick={props.go} data-to="panel3">
+			<div class='e-btn-group' data-toggle="buttons">
+	             <input  type="radio" id="checkbold" name="font" value="bold"/>
+	             <label className="ButtonSelectedOne" class="e-btn" for="checkbold">НЕБОЛЬШАЯ •</label>
+	             <input  type="radio" id="checkitalic" name="font" value="italic" />
+	             <label className="ButtonSelectedOne" class="e-btn" for="checkitalic">НЕМАЛЕНЬКАЯ ●</label>
+	             <input  type="radio" id="checkline" name="font" value="underline"/>
+	             <label className="ButtonSelectedOne" class="e-btn" for="checkline">ГАВ-ГАВ</label>
+	         </div>
+				<Button    disabled className="BacButtonDalee" mode="secondary" onClick={props.go} data-to="panel3">
 					Далее
 				</Button>
 
@@ -42,7 +49,10 @@ const Persik = props => (
 
 		</Group>
 
+
 	</Panel>
+
+
 
 	</Div>
 );
@@ -51,5 +61,10 @@ Persik.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
+
+
+
+
+
 
 export default Persik;
