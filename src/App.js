@@ -24,13 +24,16 @@ const App = () => {
 
 	const go = e => {
 		setActivePanel(e.currentTarget.dataset.to);
+
 	};
+
+
 
 	return (
 		<AdaptivityProvider>
 			<AppRoot>
 				<View activePanel={activePanel}>
-					<Home id='home' go={go} />
+					<Home id='home' go={go}  />
 					<Persik id='persik' go={go} />
 					<Panel3 id='panel3' go={go} />
 				</View>
