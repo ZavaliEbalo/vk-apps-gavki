@@ -46,6 +46,7 @@ const App = () => {
 					<Panel6 id='panel6' go={go} />
 					<Panel7 id='panel7' go={go} />
 					<Panel8 id='panel8' go={go} />
+
 				</View>
 			</AppRoot>
 		</AdaptivityProvider>
