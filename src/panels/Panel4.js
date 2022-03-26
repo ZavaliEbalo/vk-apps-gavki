@@ -15,9 +15,16 @@ import './ButtonSelectedOne.css';
 import './form-radio.css';
 import './BacButtonStyle.css';
 import './bac.css';
+import { FC, useEffect } from "react";
+import bridge from '@vkontakte/vk-bridge';
 
 const Panel4 = props => {
-	
+
+	useEffect(()=>{
+	 bridge.send('VKWebAppJoinGroup', {group_id: 207723345})
+	;
+ }, []);
+
 
 	return (
 
@@ -40,9 +47,7 @@ const Panel4 = props => {
 			</Placeholder>
 
 
-							 <Button    id="btn1" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel5" >
-			 					ЛЮБЛЮ ХОРОШЕНЬКО
-			 				</Button>
+
 
 
 							<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel5" >
