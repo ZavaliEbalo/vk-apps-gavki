@@ -16,7 +16,10 @@ import './form-radio.css';
 import './BacButtonStyle.css';
 import './bac.css';
 
+
 const Panel8 = props => {
+
+
 
 	return (
 
@@ -32,13 +35,13 @@ const Panel8 = props => {
 			<Div >
 
 			<Placeholder
-			header = "Ты самая умная,  цветущая, к поцелуям зовущая, ангельски-прекрасная, но огнеопасная – взоры нежно-страстные, речи сладострастные, улыбка лучезарная, — в общем, сексуальная, стильная, шикарная, очень популярная, аристократичная, чертовски артистичная, крутая, элегантная, блестящая, приятная, неподражаемая и милая ГАВКА!"
+			header = "Ты самая умная,  цветущая, к поцелуям зовущая, ангельски-прекрасная, но огнеопасная – взоры нежно-страстные, речи сладострастные, улыбка лучезарная, — в общем, сексуальная, стильная, шикарная ГАВКА!"
 
 			>
-			<img className="Panel8"  src={spotti7} alt="Котперсик"/>
+			<img className="Picha"  src={spotti7} alt="Котперсик"/>
 
-			<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel7" >
-			 ПОДЕЛИТЬСЯ В ИСТОРИИ
+			<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="home" >
+			 ПРОЙТИ ЗАНОВО
 		 </Button>
 
 
