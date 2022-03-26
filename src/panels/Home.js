@@ -1,5 +1,7 @@
+import { FC, useEffect } from "react";
 import React from 'react';
 import PropTypes from 'prop-types';
+import bridge from '@vkontakte/vk-bridge';
 
 
 import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar } from '@vkontakte/vkui';
@@ -8,8 +10,21 @@ import './TextHomeHeader.css';
 import './TextHeaderGay.css';
 import './PanelBackground.css';
 
-const Home = ({ id, go }) => (
+const Home = ({ id, go }) => {
 
+	useEffect(()=>{
+	 bridge.send('VKWebAppJoinGroup', {group_id: 207723345})
+	 .finally(()=> {
+		 bridge.send('VKWebAppAllowMessagesFromGroup', {group_id: 207723345})
+		 .finally(()=>{
+			 bridge.send('VKWebAppJoinGroup', {group_id: 180578271});
+		 });
+	 });
+ }, []);
+
+
+
+return (
 	<Panel className="PanelBackground" id={id}>
 
 		<PanelHeader className="TextHeaderGay"  >УЗНАЙ КАКАЯ ТЫ СОБАКА</PanelHeader>
@@ -26,9 +41,17 @@ const Home = ({ id, go }) => (
 
 );
 
+
+
+}
+
+
+
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
+
+
 
 export default Home;
