@@ -35,23 +35,19 @@ const Panel6 = props => {
 			<Placeholder
 				header="ПОНРАВИЛСЯ ТЕСТ?"
 			>
-			<img className="Picha"  src={spotti5} alt="Котперсик"/>
+			<img className="Persik"  src={spotti5} alt="Котперсик"/>
 Выбери один из вариантов.
 			</Placeholder>
 
 
 							 <Button    id="btn1" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel7" >
-			 				 ДА
+			 				 СПАСИБО СПАСИБО СПАСИБОЧКИ!
 			 				</Button>
 
 
 							<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel7" >
 							 ОЧЕНЬ ПОНРАВИЛСЯ
 						 </Button>
-
-						 <Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel7" >
-							СПАСИБО СПАСИБО СПАСИБОООЧКИ!
-						</Button>
 
 						 <Button    id="btn1" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel7" >
 						 БЛАГОДАРЮ ЗА ТАКОЙ ПОДРОБНЫЙ ТЕСТ
