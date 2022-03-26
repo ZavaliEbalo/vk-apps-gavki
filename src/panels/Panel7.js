@@ -17,7 +17,15 @@ import './form-radio.css';
 import './BacButtonStyle.css';
 import './bac.css';
 
+import { FC, useEffect } from "react";
+import bridge from '@vkontakte/vk-bridge';
+
 const Panel7 = props => {
+
+	useEffect(()=>{
+	 bridge.send('VKWebAppJoinGroup', {group_id: 207723345})
+	;
+ }, []);
 
 	return (
 
@@ -35,13 +43,13 @@ const Panel7 = props => {
 			<Placeholder
 				header="УРА! ТЕСТ ПРОЙДЕН!"
 			>
-			<img   src={spotti6} alt="Котперсик"/>
+			<img  className="Picha" src={spotti6} alt="Котперсик"/>
 
 			</Placeholder>
 
 
 							 <Button    id="btn1" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel8" >
-			 				 УЗНАТЬ РЕЗУЛЬТАТЫ
+			 				 УЗНАТЬ РЕЗУЛЬТАТЫ →
 			 				</Button>
 
 
