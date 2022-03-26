@@ -57,9 +57,6 @@ return (
 							<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
 							 НЕМАЛЕНЬКАЯ
 						 </Button>
-						 <Button    id="btn3" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
-							КРОШКА-КАРТОШКА
-						</Button>
 						<Button    id="btn4" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
 						 НЕ БУДУ ОБЪЯСНЯТЬ СВОЮ МАЛЕНЬКОСТЬ!
 					 </Button>
