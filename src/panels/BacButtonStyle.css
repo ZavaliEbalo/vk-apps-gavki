@@ -1,9 +1,7 @@
 .BacButtonStyle {
    background: linear-gradient(to right, #f5167a, #efff45);
    display: block;
-   width: 90%;
- height: 5%;
-   margin: 5px auto;
-margin: 30px auto;
+
+margin: 15px auto;
    color: white;
 }
