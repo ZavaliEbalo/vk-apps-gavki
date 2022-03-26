@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/vk-apps-gavki/static/css/main.c71ab643.chunk.css",
-    "main.js": "/vk-apps-gavki/static/js/main.38cdda42.chunk.js",
-    "main.js.map": "/vk-apps-gavki/static/js/main.38cdda42.chunk.js.map",
+    "main.css": "/vk-apps-gavki/static/css/main.1e0175be.chunk.css",
+    "main.js": "/vk-apps-gavki/static/js/main.c8345cb1.chunk.js",
+    "main.js.map": "/vk-apps-gavki/static/js/main.c8345cb1.chunk.js.map",
     "runtime-main.js": "/vk-apps-gavki/static/js/runtime-main.eae10796.js",
     "runtime-main.js.map": "/vk-apps-gavki/static/js/runtime-main.eae10796.js.map",
     "static/css/2.a2ab3232.chunk.css": "/vk-apps-gavki/static/css/2.a2ab3232.chunk.css",
-    "static/js/2.40c4648b.chunk.js": "/vk-apps-gavki/static/js/2.40c4648b.chunk.js",
-    "static/js/2.40c4648b.chunk.js.map": "/vk-apps-gavki/static/js/2.40c4648b.chunk.js.map",
+    "static/js/2.59d87dda.chunk.js": "/vk-apps-gavki/static/js/2.59d87dda.chunk.js",
+    "static/js/2.59d87dda.chunk.js.map": "/vk-apps-gavki/static/js/2.59d87dda.chunk.js.map",
     "index.html": "/vk-apps-gavki/index.html",
     "static/css/2.a2ab3232.chunk.css.map": "/vk-apps-gavki/static/css/2.a2ab3232.chunk.css.map",
-    "static/css/main.c71ab643.chunk.css.map": "/vk-apps-gavki/static/css/main.c71ab643.chunk.css.map",
-    "static/js/2.40c4648b.chunk.js.LICENSE.txt": "/vk-apps-gavki/static/js/2.40c4648b.chunk.js.LICENSE.txt",
-    "static/media/persik.ae9f0072.png": "/vk-apps-gavki/static/media/persik.ae9f0072.png"
+    "static/css/main.1e0175be.chunk.css.map": "/vk-apps-gavki/static/css/main.1e0175be.chunk.css.map",
+    "static/js/2.59d87dda.chunk.js.LICENSE.txt": "/vk-apps-gavki/static/js/2.59d87dda.chunk.js.LICENSE.txt",
+    "static/media/persik.ae9f0072.png": "/vk-apps-gavki/static/media/persik.ae9f0072.png",
+    "static/media/spotti.59a435fe.png": "/vk-apps-gavki/static/media/spotti.59a435fe.png",
+    "static/media/spotti2.0259f55e.png": "/vk-apps-gavki/static/media/spotti2.0259f55e.png",
+    "static/media/spotti3.b9599053.png": "/vk-apps-gavki/static/media/spotti3.b9599053.png",
+    "static/media/spotti4.5d7b918d.png": "/vk-apps-gavki/static/media/spotti4.5d7b918d.png",
+    "static/media/spotti5.5f5cc0d0.png": "/vk-apps-gavki/static/media/spotti5.5f5cc0d0.png",
+    "static/media/spotti6.904b728a.png": "/vk-apps-gavki/static/media/spotti6.904b728a.png",
+    "static/media/spotti7.c9ff0c53.png": "/vk-apps-gavki/static/media/spotti7.c9ff0c53.png",
+    "static/media/spotti8.723a4723.png": "/vk-apps-gavki/static/media/spotti8.723a4723.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eae10796.js",
     "static/css/2.a2ab3232.chunk.css",
-    "static/js/2.40c4648b.chunk.js",
-    "static/css/main.c71ab643.chunk.css",
-    "static/js/main.38cdda42.chunk.js"
+    "static/js/2.59d87dda.chunk.js",
+    "static/css/main.1e0175be.chunk.css",
+    "static/js/main.c8345cb1.chunk.js"
   ]
 }
