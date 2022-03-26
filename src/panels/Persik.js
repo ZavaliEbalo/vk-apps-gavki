@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div, Header, Gradient } from '@vkontakte/vkui';
+import { Panel, PanelHeader, PanelHeaderBack, Button, Group,  Div, Header, Gradient, Placeholder, Separator } from '@vkontakte/vkui';
 
 import persik from '../img/persik.png';
+import spotti from '../img/spotti.png';
 import './Persik.css';
 import './ButStyle.css';
 import './block.css';
@@ -11,38 +12,58 @@ import './BacButtonDalee.css';
 import './GradientTest.css';
 import './ButtonSelectedOne.css';
 import './form-radio.css';
+import './BacButtonStyle.css';
+import './bac.css';
 
 
 
 
-const Persik = props => (
+
+const Persik   = props => {
 
 
-	<Div className="PanelBackground">
 
-	<Panel
+
+return (
+
+
+	<Panel className="PanelBackground"
 	id={props.id}>
 		<PanelHeader
-		//	left={<PanelHeaderBack onClick={props.go} data-to="home"/>}
-		>
 
+		>
 		</PanelHeader>
 
-		<img className="Persik"  src={persik} alt="Котперсик"/>
-		<Group  header={<Header className="Persik" mode="primary">КАКАЯ ТЫ ГАВКА?</Header>}>
+
+
+
+		<Group  header={<Header className="Persik" mode="primary" ></Header>}>
 
 			<Div >
-			<div class='e-btn-group' data-toggle="buttons">
-	             <input  type="radio" id="checkbold" name="font" value="bold"/>
-	             <label className="ButtonSelectedOne" class="e-btn" for="checkbold">НЕБОЛЬШАЯ •</label>
-	             <input  type="radio" id="checkitalic" name="font" value="italic" />
-	             <label className="ButtonSelectedOne" class="e-btn" for="checkitalic">НЕМАЛЕНЬКАЯ ●</label>
-	             <input  type="radio" id="checkline" name="font" value="underline"/>
-	             <label className="ButtonSelectedOne" class="e-btn" for="checkline">ГАВ-ГАВ</label>
-	         </div>
-				<Button    disabled className="BacButtonDalee" mode="secondary" onClick={props.go} data-to="panel3">
-					Далее
-				</Button>
+
+			<Placeholder
+				header="КАКАЯ ТЫ СОБАКА?"
+			>
+			<img className="Persik"  src={spotti} alt="Котперсик"/>
+Выбери вариант, который больше всего тебе соответствует.
+			</Placeholder>
+
+
+							 <Button    id="btn1" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
+			 					НЕБОЛЬШАЯ
+			 				</Button>
+
+
+							<Button    id="btn2" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
+							 НЕМАЛЕНЬКАЯ
+						 </Button>
+						 <Button    id="btn3" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
+							КРОШКА-КАРТОШКА
+						</Button>
+						<Button    id="btn4" className="BacButtonStyle" stretched size="l"  mode="secondary" onClick={props.go} data-to="panel3" >
+						 НЕ БУДУ ОБЪЯСНЯТЬ СВОЮ МАЛЕНЬКОСТЬ!
+					 </Button>
+
 
 
 			</Div>
@@ -52,10 +73,16 @@ const Persik = props => (
 
 	</Panel>
 
-
-
-	</Div>
 );
+
+
+}
+
+
+
+
+
+
 
 Persik.propTypes = {
 	id: PropTypes.string.isRequired,
